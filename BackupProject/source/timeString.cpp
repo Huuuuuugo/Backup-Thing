@@ -5,8 +5,7 @@
 #include <string>
 
 
-std::string CurrentDateTime()
-{
+std::string currentDateTime() {
     using namespace std;
 
     time_t now = time(0);
